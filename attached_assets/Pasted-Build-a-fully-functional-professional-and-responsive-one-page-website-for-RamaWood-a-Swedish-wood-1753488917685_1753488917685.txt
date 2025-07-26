@@ -1,0 +1,101 @@
+Build a fully functional, professional, and responsive one‑page website for RamaWood, a Swedish wood import and export company.
+
+Note: I will provide the RamaWood logo, wood product images, and a hero background photo later. Please prepare placeholder slots so the images can be added easily.
+
+🎨 Visual & Design Guidelines:
+Use a natural wood-inspired color palette: warm brown, forest green, beige, and clean white space.
+
+Follow a minimalist, premium design aesthetic.
+
+Take strong inspiration from https://wood.com, including:
+
+Elegant scroll-based animations and soft transitions between sections.
+
+Parallax effects on the hero background and product sections.
+
+Animated text/image entrances (fade, slide, scale).
+
+Scrollytelling-style effects (e.g. sticky or pinned text while scrolling).
+
+Clean, modern typography and large visuals.
+
+Subtle hover effects and smooth CTA interactions.
+
+📱 Responsiveness & Language Support:
+The site must be 100% mobile responsive across all devices.
+
+Include a fully working language switcher for:
+
+English (default)
+
+Arabic (with full RTL layout and mirrored spacing)
+
+Swedish
+
+Text, layout, and direction must adjust seamlessly per language.
+
+📋 Page Structure & Content:
+1. Hero Section
+Placeholder for RamaWood logo (centered or top-left, slightly oversized)
+
+Tagline:
+
+“Trusted Swedish Company for Global Wood Trading”
+
+Hero background image with parallax scrolling effect
+
+2. About RamaWood
+RamaWood is a trusted Swedish company with over 10 years of experience in importing and exporting premium wood types. We are known for our trust, quality, and exceptional customer experience.
+
+3. Our Products
+(Animated product cards or panels with placeholders for icons/images)
+
+Beech Wood – Strong and ideal for modern furniture. From Romania, Ukraine, Bosnia, Sweden. Expensive, high demand, great profit.
+
+Pine Wood – Most affordable. Great for kitchens and doors. From Sweden, Russia, Finland. High volume sales and profit.
+
+MDF Wood – Used in budget furniture and offices. From Turkey, China, Malaysia. Low cost, profitable in bulk.
+
+Oak Wood – Premium material for luxury furniture and floors. From USA, Eastern Europe. Niche, high return.
+
+Teak Wood – Waterproof and perfect for outdoor furniture. From India, Burma, Indonesia. Expensive, specific market.
+
+4. Our Impact in Numbers
+(Animated counters or scrolling number effects)
+
+22+ countries exported to
+
+40+ trusted global partners
+
+Over 10 years of experience
+
+5. Contact Us
+WhatsApp button (click to open chat)
+
+Contact details:
+
+Owner: Rama Lahham
+
+Agent: Shaymaa Shalaby (shaymaashalaby.eg@gmail.com)
+
+Org Number: 559531-6810
+
+Address: Gåsagången 19, 422 61 Hisings Backa, Sweden
+
+🔧 Functionality Requirements:
+Fully working language switcher (EN | AR | SV)
+
+Smooth scrolling with no broken anchor links
+
+All text must be clearly visible (not hidden on hover)
+
+No missing content or 404 errors
+
+Logo must be properly sized and aligned in navbar
+
+Use clean paddings, margins, and spacing throughout
+
+Ensure fast load times and smooth animations across devices
+
+🧭 Final Goal:
+This website should be a showcase platform for RamaWood's stakeholders, investors, and clients. It must reflect a modern, premium, and trustworthy brand through polished visuals, seamless animations, clean structure, and flawless technical performance—visually and functionally inspired by wood.com.

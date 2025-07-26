@@ -1,0 +1,61 @@
+Light Mode Base Colors:
+--background: hsl(0, 0%, 100%) - Main page background (white)
+--foreground: hsl(20, 14.3%, 4.1%) - Main text color (dark brown)
+--muted: hsl(60, 4.8%, 95.9%) - Muted backgrounds (light gray)
+--muted-foreground: hsl(25, 5.3%, 44.7%) - Muted text (medium brown)
+--border: hsl(20, 5.9%, 90%) - Border colors (light brown-gray)
+--input: hsl(20, 5.9%, 90%) - Input field backgrounds (light brown-gray)
+Interactive Colors:
+--primary: hsl(207, 90%, 54%) - Primary buttons and links (blue)
+--primary-foreground: hsl(211, 100%, 99%) - Text on primary elements (near white)
+--secondary: hsl(60, 4.8%, 95.9%) - Secondary buttons (light gray)
+--secondary-foreground: hsl(24, 9.8%, 10%) - Text on secondary elements (dark)
+--accent: hsl(60, 4.8%, 95.9%) - Accent backgrounds (light gray)
+--accent-foreground: hsl(24, 9.8%, 10%) - Accent text (dark)
+Status Colors:
+--destructive: hsl(0, 84.2%, 60.2%) - Error/danger states (red)
+--destructive-foreground: hsl(60, 9.1%, 97.8%) - Text on error elements (near white)
+Wood-Themed Custom Colors:
+--wood-brown: hsl(29, 69%, 36%) - Main wood brown color
+--wood-dark: hsl(35, 56%, 20%) - Dark wood color
+--forest-green: hsl(120, 25%, 25%) - Forest green for buttons/accents
+--forest-light: hsl(120, 50%, 35%) - Lighter forest green
+--wood-beige: hsl(60, 56%, 91%) - Light beige wood color
+--wood-peru: hsl(30, 59%, 53%) - Peru wood color
+Dark Mode Colors:
+--background: hsl(240, 10%, 3.9%) - Dark background
+--foreground: hsl(0, 0%, 98%) - Light text
+--muted: hsl(240, 3.7%, 15.9%) - Dark muted backgrounds
+--border: hsl(240, 3.7%, 15.9%) - Dark borders
+And corresponding dark mode variants for all other colors
+Tailwind Configuration Colors (from tailwind.config.ts)
+All the CSS custom properties are mapped to Tailwind classes:
+
+background → bg-background
+foreground → text-foreground
+primary → bg-primary, text-primary
+border → border-border
+And so on for all variants
+Specific Component Color Usage
+Navigation (Navigation.tsx):
+Background: Transparent/translucent with backdrop blur
+Text: Uses text-foreground (main text color)
+Logo: Custom image asset
+Mobile menu: Uses card colors
+Hero Section:
+Background: Custom background image with overlay
+Text: White/light colors for contrast
+Buttons: bg-forest-green with hover effects
+Products Section (Products.tsx):
+Cards: bg-card with card-foreground text
+Rating stars: Yellow/gold colors
+Origin badges: Various color combinations
+CTA Button: bg-forest-green with hover states
+Contact Section:
+Form inputs: bg-input with border colors
+Submit button: Primary color scheme
+WhatsApp button: Green (#25D366)
+Form Validation Colors:
+Success: Green variants
+Error: Red variants (destructive colors)
+Warning: Orange/yellow variants
