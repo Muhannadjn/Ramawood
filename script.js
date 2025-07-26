@@ -319,14 +319,16 @@ function initializeImageLoading() {
   images.forEach(img => {
     img.addEventListener('load', function() {
       this.style.opacity = '1';
+      this.style.border = 'none'; // optional: remove border if it loaded fine
     });
 
     img.addEventListener('error', function() {
       console.warn('Failed to load image:', this.src);
-      // Keep placeholder or show error state
+      this.style.opacity = '1'; // make it visible
+      this.style.border = '3px solid red'; // red border to show error
     });
 
-    // Set initial opacity
+    // Initial state
     img.style.opacity = '0';
     img.style.transition = 'opacity 0.3s ease';
   });
