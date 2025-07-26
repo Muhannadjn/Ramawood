@@ -327,7 +327,7 @@ function initializeImageLoading() {
     });
 
     // Set initial opacity
-    img.style.opacity = '0';
+    img.style.opacity = '1';
     img.style.transition = 'opacity 0.3s ease';
   });
 }
